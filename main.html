@@ -3,11 +3,61 @@
 <html>
 
 <head>
+	<title>Accessible Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1 role="heading">My Accessible Portfolio</h1>
+
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#Skills">Skills</a></li>
+			 <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Profile Image -->
+    <img role="img"
+         src="https://tse1.mm.bing.net/th/id/OIP.5AK3GUIo9EC7_Le00S5SYgHaE8?pid=Api&rs=1&c=1&qlt=95&w=148&h=98"
+         alt="Profile picture">
+	<section id="About">
+		I am Vaishnavi Bagal. I have Completed my graduation in Artificial Intelligence and Data Science from Savitribai Phule Pune University.I also 
+		have some basic skills that support my learning and work. My skills are Javascript, HTML and CSS.
+	</section>
+	<section id="project">
+		<h2 role="heading">Projects</h2>
+		<ul role="list">
+			<li role="listitem">Tomato leaf disease detection using deep learning</li>
+			<li role="listitem">Medical Management system</li>
+																					 
+		</ul>
+	</section>
+	<section id="Skills">
+		<h2 role="subheading">Skills</h2>
+		<ul role="List">
+			<li role="listitem">HTML</li>
+			<li role="listitem">CSS</li>
+			<li role="listitem">Javascript</li>
+			<li role="listitem">Machine Learning</li>
+			<li role="listitem">Data Science</li>
+			
+				
+		</ul>
+	</section>
+	<section id="Contact">
+		<h2 role="subheading">Contact Details</h2>
+		<ul role="list">
+			<li role="listitem"><a href="https://www.linkedin.com/in/vaishnavi-bagal-48443a248/">LinkedIn</a></li>
+			<li role="listitem"><a href="https://github.com/Vaish9602">Github</a></li>
+			<li role="listitem"><input type="email" placeholder="bagalvaishnavi51@gmail.com"></li>
+			<li role="listitem"><input type=" phone" placeholder="7385747494"></li>
+		</ul>
+	</section>
     <script type="text/javascript" src="./script.js">
 </script>
 
